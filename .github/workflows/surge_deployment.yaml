@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install --global surge
       - name: Run surge
-        run: surge./ http://saad_bootcamp2020.surge.sh/ --token ${{ secrets.surge_token }}
+        run: surge./ saad_bootcamp2020.surge.sh --token ${{ secrets.surge_token }}
